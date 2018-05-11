@@ -1,0 +1,9 @@
+-- APT Database for CCLinux
+return {
+  helloworld = {
+    realname = "helloworld",
+    name = "Hello, world!",
+    description = "A simple hello world application.",
+    file = "https://pastebin.com/raw/VAsPvTc4",
+  },
+}

@@ -9,7 +9,7 @@ return {
   },
   -- Upgrades the CCLinux system to version 1.2, and entirely deprecates the GitHub repository in favour of Generic Git.
   -- It even gets the upgrade file from the Generic Git, which deprecates GitHubDB almost immediately!
-  systemupgrade1.2 = {
+  systemupgrade12 = {
     realname = "systemupgade1-2",
     name = "System Upgrade version 1.2",
     description = "Updates your copy of CCLinux to version number 1.2.",

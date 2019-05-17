@@ -1,9 +1,17 @@
 -- APT Database for CCLinux
 return {
+  -- APT Database HelloWorld Sanity Check
   helloworld = {
     realname = "helloworld",
     name = "Hello, world!",
     description = "A simple hello world application.",
     file = "https://pastebin.com/raw/VAsPvTc4",
+  },
+  -- Upgrades the CCLinux system to version 1.2, and entirely deprecates the GitHub repository in favour of Generic Git.
+  systemupgrade1.2 = {
+    realname = "systemupgade1-2",
+    name = "System Upgrade version 1.2",
+    description = "Updates your copy of CCLinux to version number 1.2.",
+    file = "https://raw.githubusercontent.com/MCFunRide/CCLinux-APT/master/systemupgrade1.2.lua",
   },
 }

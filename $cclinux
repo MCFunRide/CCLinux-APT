@@ -15,4 +15,11 @@ return {
     description = "Updates your copy of CCLinux to version number 1.2.",
     file = "https://git.gdmn.tk/funey/CCLinux-APT/raw/branch/master/systemupgrade1.2.lua",
   },
+  -- This shouldn't be used by the average end user.
+  sysupgradewrap = {
+    realname = "sysupgradewrap",
+    name = "System Upgrade Wrapper",
+    description = "Update wrapper, should be only used with the floppy update deployment.",
+    file = "https://git.gdmn.tk/funey/CCLinux-APT/raw/branch/master/sysupdlatest.lua",
+  },
 }
